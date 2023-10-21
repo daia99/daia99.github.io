@@ -3,12 +3,15 @@ layout: post
 title:  "Quality-Diversity through AI Feedback"
 date:   2023-10-19 00:00:00 +00:00
 image: /images/qdaif.png
+bgcolor: "#ffffd0"
 categories: research
 author: "Andrew Dai"
 authors: "Herbie Bradley&ast;, <strong>Andrew Dai&ast;</strong>, Hannah Teufel, Jenny Zhang, Koen Oostermeijer, Marco Bellagente, Jeff Clune, Kenneth Stanley, Grégory Schott, Joel Lehman"
 venue: "arXiv (submitted, to be announced)"
+main: https://qdaif.github.io
 arxiv: https://qdaif.github.io
 code: https://github.com/CarperAI/OpenELM
 website: https://qdaif.github.io
+blog: https://carper.ai/quality-diversity-through-ai-feedback/
 ---
-Quality-Diversity through AI Feedback (QDAIF) is an evolutionary algorithm that applies LMs to both generate variation and evaluate the quality and diversity of candidate text. 
+QDAIF utilizes LMs to both vary texts and evaluate subjective quality/diversity of creative texts, enabling search of diverse high-quality solutions in vast spaces of subjectivity. 

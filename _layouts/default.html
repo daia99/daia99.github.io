@@ -25,7 +25,12 @@
               <h1>
                 Andrew Dai
               </h1>
-              <p>I am a Research Engineer at <a href="https://aleph-alpha.com/">Aleph Alpha</a>, where I work on Large Language Models (LLMs), <a href="https://quality-diversity.github.io/">Quality Diversity (QD)</a>, and <a href="https://www.oreilly.com/radar/open-endedness-the-last-grand-challenge-youve-never-heard-of/">open-endedness</a>.
+              <p>I am a Research Engineer at <a href="https://aleph-alpha.com/">Aleph Alpha</a>, where I work on Large Language Models (LLMs), <a href="https://quality-diversity.github.io/">Quality Diversity (QD)</a>, and <a href="https://github.com/jennyzzt/awesome-open-ended">open-endedness</a>.
+              </p>
+              <p>My humble beginnings started with Mechanical Engineering in <a href="https://www.tcd.ie/engineering/">Trinity College Dublin</a>, where I co-founded <a href="https://www.formulatrinity.ie/autonomous">Formula Trinity Autonomous</a> with amazing close friends and teammates.
+              </p>
+              </p>
+              <p> After reading <a href="https://www.google.com/search?hl=en&q=why%20greatness%20cannot%20be%20planned">Ken and Joel's book</a>, I've learned that <em>ambitious</em> objectives can deceive us from greatness, inspiring me on a collaborative journey to reflect on the way that I (and artificial systems that I build with my team) can <em>"<a href="https://stars.library.ucf.edu/cgi/viewcontent.cgi?article=2529&context=facultybib2010">achieve our highest goals by being willing to abandon them</a>"</em>, ultimately making us <em><a href="https://qdaif.github.io/">more creative</a></em>.
               </p>
               <p style="text-align:center">
                 <a href="https://github.com/daia99">GitHub</a> &nbsp;/&nbsp;
@@ -45,7 +50,7 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Research</h2>
               <p>
-                Authors marked with an asterisk (&ast;) denote equal contribution first authors
+                Authors marked with an asterisk (&ast;) denote equal contribution first authors. Representative works are <span class="highlight">highlighted</span>.
               </p>
             </td>
           </tr>
@@ -55,38 +60,46 @@
           {% for post in site.posts %}
           {% for cat in post.categories %}
           {% if cat == 'research' %}
-          <tr>
+          <tr bgcolor="{{post.bgcolor}}">
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
+              <a href="{{post.main}}"><h3>{{post.title}}</h3></a>
               <br>
               {{post.authors}}
 
               <br>
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
               <br>
-              {% if post.arxiv %}
-              <a href="{{post.arxiv}}">arxiv</a> /
+              <!-- Logic here makes slash dividers tidier when project page exists -->
+              {% if post.website and post.arxiv %}
+                <a href="{{post.website}}">project page</a> / <a href="{{post.arxiv}}">arXiv</a>
+              {% else %}
+                {% if post.arxiv %}
+                  <a href="{{post.arxiv}}">arXiv</a>
+                {% endif %}
+                {% if post.website %}
+                  <a href="{{post.website}}">project page</a>
+                {% endif %}
               {% endif %}
               {% if post.video %}
-              <a href="{{post.video}}">video</a> /
+                / <a href="{{post.video}}">video</a>
               {% endif %}
               {% if post.code %}
-              <a href="{{post.code}}">code</a> /
+                / <a href="{{post.code}}">code</a>
               {% endif %}
               {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
+                / <a href="{{post.poster}}">poster</a>
               {% endif %}
               {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> /
+                / <a href="{{post.slides}}">slides</a>
               {% endif %}
               {% if post.youtube %}
-              <a href="{{post.youtube}}">youtube</a> /
+                / <a href="{{post.youtube}}">youtube</a>
+              {% endif %}
+              {% if post.blog %}
+                / <a href="{{post.blog}}">blog</a>
               {% endif %}
               <p></p>
               {{ post.excerpt }}
@@ -102,7 +115,7 @@
             <td style="padding:0px">
               <br>
               <p style="text-align:center;font-size:small;">
-                Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>. Jekyll Now fork from <a style="font-size:small;" href="https://github.com/leonidk/leonidk.github.io">Leonid Keselman</a>
+                Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>. Jekyll Now fork of design from <a style="font-size:small;" href="https://github.com/leonidk/leonidk.github.io">Leonid Keselman</a>
               </p>
             </td>
           </tr>

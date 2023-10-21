@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Interpretable Video Transformers in Imitation Learning of Human Driving"
+date:   2021-07-24 00:00:00 +00:00
+image: /images/bc_vit.png
+bgcolor: "#ffffff"
+categories: research
+author: "Andrew Dai"
+authors: "<strong>Andrew Dai</strong>, Wenliang Qiu, Bidisha Ghosh"
+venue: "3rd ICML 2021 Workshop on Human in the Loop Learning"
+main: https://www.icml-hill.com/_files/ugd/4ce291_125646ced7fb4bc3874d1ef04f1d5160.pdf
+---
+ViTs applied to behavioural cloning for AVs from offline video data, lending itself to more interpretable decision-making.
