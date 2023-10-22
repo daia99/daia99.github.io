@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Neural Radiance Fields (and Friends)"
+date:   2021-07-21 00:00:00 +00:00
+image: /images/nerf_cs7gv4.png
+bgcolor: "#ffffff"
+categories: TCD
+author: "Andrew Dai"
+course: "CS7GV4: Augmented Reality"
+main: https://youtu.be/71tHN1BViGY?feature=shared
+code: https://colab.research.google.com/drive/1RYc7gtVGdzx4NwkpEw2RbkOs_K2_7urP
+video: https://youtu.be/71tHN1BViGY?feature=shared
+report: https://drive.google.com/file/d/1mMuC-ZYSOisul9pSjxQj1zDp_3O6ZHMa/view?usp=sharing
+---
+Applying advancements in NeRF (e.g. NeX-MPI, PlenOctrees) to AR demos within a home (and notebook).

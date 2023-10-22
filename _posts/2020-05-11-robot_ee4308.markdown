@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Ground and UAV Robot Sim Control"
+date:   2020-05-11 00:00:00 +00:00
+image: /images/ee4308.png
+bgcolor: "#ffffff"
+categories: NUS
+author: "Andrew Dai"
+course: "EE4308: Autonomous Mobile Robots"
+main: https://drive.google.com/file/d/16kd4YJwZAli4624PEpuuYVH2A_8CgW5R/view?usp=share_link
+code: https://drive.google.com/drive/folders/1lnWdZ2FTjBmlLs93Rf_TtEQyBwNSho_S?usp=sharing
+report: https://drive.google.com/file/d/16kd4YJwZAli4624PEpuuYVH2A_8CgW5R/view?usp=share_link
+---
+Control, state estimation, perception, path planning on sim robots. Project done while on exchange in Year 4.

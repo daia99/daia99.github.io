@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Formula Trinity Autonomous"
+date:   2020-09-01 00:00:00 +00:00
+image: /images/robot_racing.jpg
+bgcolor: "#ffffff"
+categories: TCD
+author: "Andrew Dai"
+course: "Extracurricular"
+main: https://www.formulatrinity.ie/autonomous
+tutorial: https://github.com/FT-Autonomous/Autonomous_Crash_Course
+---
+Autonomous Racing (Formula Student Driverless racing, F1TENTH) is cool - co-founded with Jakub Pyszka, Senan Stanley, Katherine Hardgrave, and curious TCD students
