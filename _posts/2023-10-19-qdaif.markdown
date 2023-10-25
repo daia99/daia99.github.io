@@ -12,6 +12,6 @@ main: https://qdaif.github.io
 arxiv: https://arxiv.org/abs/2310.13032
 code: https://github.com/CarperAI/OpenELM
 website: https://qdaif.github.io
-blog: https://carper.ai/quality-diversity-through-ai-feedback/
+blog: https://aleph-alpha.com/quality-diversity-through-ai-feedback/
 ---
 QDAIF utilizes LMs to both vary texts and evaluate subjective quality/diversity of creative texts, enabling search of diverse high-quality solutions in vast spaces of subjectivity. 
