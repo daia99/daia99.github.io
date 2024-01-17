@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Quality-Diversity through AI Feedback"
-date:   2023-10-19 00:00:00 +00:00
+date:   2024-01-15 00:00:00 +00:00
 image: /images/qdaif.png
 bgcolor: "#ffffd0"
 categories: research
 author: "Andrew Dai"
 authors: "Herbie Bradley&ast;, <strong>Andrew Dai&ast;</strong>, Hannah Teufel, Jenny Zhang, Koen Oostermeijer, Marco Bellagente, Jeff Clune, Kenneth Stanley, Grégory Schott, Joel Lehman"
-venue: "arXiv"
+venue: "ICLR"
 main: https://qdaif.github.io
 arxiv: https://arxiv.org/abs/2310.13032
 code: https://github.com/CarperAI/OpenELM
