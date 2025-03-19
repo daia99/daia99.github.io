@@ -11,4 +11,4 @@ venue: "arXiv pre-print"
 main: https://arxiv.org/abs/2412.02980
 arxiv: https://arxiv.org/abs/2412.02980
 ---
-Investigates quality, diversity, and complexity (QDC) of LLM synthetic data (data evaluation/downstream model effects, data generation methods)
+Investigates quality, diversity, and complexity (QDC) of LLM synthetic data (data evaluation/downstream model effects, and data generation methods)
