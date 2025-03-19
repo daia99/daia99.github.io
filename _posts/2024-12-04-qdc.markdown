@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Surveying the Effects of Quality, Diversity, and Complexity in Synthetic Data From Large Language Models"
+date:   2024-12-04 00:00:00 +00:00
+image: /images/qdc.png
+bgcolor: "#ffffff"
+categories: research
+author: "Andrew Dai"
+authors: "Alex Havrilla, <strong>Andrew Dai</strong>, Laura O'Mahony, Koen Oostermeijer, Vera Zisler, Alon Albalak, Fabrizio Milo, Sharath Chandra Raparthy, Kanishk Gandhi, Baber Abbasi, Duy Phung, Maia Iyer, Dakota Mahan, Chase Blagden, Srishti Gureja, Mohammed Hamdy, Wen-Ding Li, Giovanni Paolini, Pawan Sasanka Ammanamanchi, Elliot Meyerson"
+venue: "arXiv pre-print"
+main: https://arxiv.org/abs/2412.02980
+arxiv: https://arxiv.org/abs/2412.02980
+---
+Investigates quality, diversity, and complexity (QDC) of LLM synthetic data (data evaluation/downstream model effects, data generation methods)
