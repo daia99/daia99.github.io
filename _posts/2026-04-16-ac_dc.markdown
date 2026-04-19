@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Discovering Novel LLM Experts via Task-Capability Coevolution"
+date:   2026-04-16 00:00:00 +00:00
+image: /images/acdc.png
+bgcolor: "#ffffd0"
+categories: research
+author: "Andrew Dai"
+main: https://arxiv.org/abs/2604.14969
+arxiv: https://arxiv.org/abs/2604.14969
+authors: "<strong>Andrew Dai&ast;</strong>, Boris Meinardus&ast;, Ciaran Regan, Yingtao Tian, Yujin Tang"
+venue: "ICLR"
+main: https://acdc-llm.github.io
+arxiv: https://arxiv.org/abs/2604.14969
+code: https://github.com/SakanaAI/AC-DC
+website: https://acdc-llm.github.io
+---
+AC/DC coevolves populations of LLMs and synthetic tasks, and discovers efficient expert LLM task forces that can outperform GPT-4o with fewer parameters used, while adapting to continually growing challenges.
